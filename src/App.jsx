@@ -1,6 +1,7 @@
 import Header from './components/Header';
 import Main from './components/Main';
 import Footer from './components/Footer';
+import CopyInput from './components/CopyInput';
 
 const App = () => {
   return (
@@ -8,9 +9,9 @@ const App = () => {
       <Header />
       <Main />
       <Footer />
+      <CopyInput />
     </div>
   );
 };
-
 
 export default App;
